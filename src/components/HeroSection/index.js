@@ -1,18 +1,17 @@
 import React from "react";
-import "./heroSection.css";
 import Button from "../common/Button";
-const index = () => {
+import "./heroSection.css";
+
+const HeroSection = () => {
   return (
     <div className="hero-section-wrapper">
       <div className="flex absolute-center hero-claim-label">
-        {" "}
         <div>pay credit card bill. earn guaranteed ₹200 back.</div>
         <div className="claim-anchor">
           claim now
           <img
             src="https://web-images.credcdn.in/_next/assets/images/home-page/arrow.png"
             className="claim-arrow"
-            alt="arrow"
           />
         </div>
       </div>
@@ -29,4 +28,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default HeroSection;

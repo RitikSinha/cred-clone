@@ -1,6 +1,6 @@
 import React from "react";
 import "./button.css";
-const index = ({ buttonText, onClick, prefix, customClass }) => {
+const Button = ({ buttonText, onClick, prefix, customClass }) => {
   return (
     <div
       className={`button-wrapper flex absolute-center ${customClass}`}
@@ -12,4 +12,4 @@ const index = ({ buttonText, onClick, prefix, customClass }) => {
   );
 };
 
-export default index;
+export default Button;

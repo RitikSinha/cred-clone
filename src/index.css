@@ -1,17 +1,19 @@
 @import "./common/styles/fonts.css";
-@import "./common/styles/animations.css";
 @import "./common/styles/commonClasses.css";
 @import "./common/styles/variables.css";
+@import "./common/styles/animations.css";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
+  margin: 0;
   font-family: Gilroy, sans-serif;
-  background-color: var(--bg-black);
-  color: var(--text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: var(--bg-black);
+  color: var(--text);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
