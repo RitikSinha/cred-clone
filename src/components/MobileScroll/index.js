@@ -49,6 +49,7 @@ const MobileScroll = () => {
           <div className="mobile-mockup-screen flex absolute-center">
             <img
               src={scrollData[currentImg].mobile_img}
+              alt="phone"
               className="mobile-screen-img slide-in-right "
               key={scrollData[currentImg].mobile_img}
             />
