@@ -29,6 +29,7 @@ const ScreenText = ({ screen, setCurrentImg, i }) => {
         observer.unobserve(curr);
       }
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
