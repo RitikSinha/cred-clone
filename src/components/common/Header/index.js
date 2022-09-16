@@ -23,17 +23,18 @@ const Header = () => {
         <img
           src="https://web-images.credcdn.in/_next/assets/images/home-page/cred-logo.png"
           className="header-logo"
+          alt="some-logo"
         />
         <div className="only-mobile mobile-menu-button-wrapper">
           <button
-            class={`hamburger hamburger--spin ${
+            className={`hamburger hamburger--spin ${
               showMobMenu ? "is-active" : ""
             }`}
             type="button"
             onClick={toggleMobileMenu}
           >
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
             </span>
           </button>
         </div>

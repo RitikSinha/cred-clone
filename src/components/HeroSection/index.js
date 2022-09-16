@@ -12,6 +12,7 @@ const HeroSection = () => {
           <img
             src="https://web-images.credcdn.in/_next/assets/images/home-page/arrow.png"
             className="claim-arrow"
+            alt="some"
           />
         </div>
       </div>

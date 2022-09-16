@@ -7,6 +7,7 @@ const getIosPrefix = () => {
     <img
       src="https://web-images.credcdn.in/_next/assets/images/home-page/apple-store-logo.png"
       className="app-rating-icon"
+      alt="some"
     />
   );
 };
@@ -16,6 +17,7 @@ const getAndroidPrefix = () => {
     <img
       src="https://web-images.credcdn.in/_next/assets/images/home-page/play-store-logo.png"
       className="app-rating-icon"
+      alt="some"
     />
   );
 };
@@ -29,6 +31,7 @@ const AppRating = () => {
             <img
               src="https://web-images.credcdn.in/_next/assets/images/home-page/rating-ios.png"
               className="app-rating-stars"
+              alt="some"
             />
           </div>
           <div className="app-rating-platform">
@@ -50,6 +53,7 @@ const AppRating = () => {
             <img
               src="https://web-images.credcdn.in/_next/assets/images/home-page/rating-android.png"
               className="app-rating-stars"
+              alt="some"
             />
           </div>
           <div className="app-rating-platform">

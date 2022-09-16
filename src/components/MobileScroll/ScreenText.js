@@ -19,13 +19,14 @@ const ScreenText = ({ screen, setCurrentImg, i }) => {
 
   useEffect(() => {
     const observer = new IntersectionObserver(setItemVisible, options);
-    if (ref.current) {
-      observer.observe(ref.current);
+    const curr = ref.current;
+    if (curr) {
+      observer.observe(curr);
     }
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
+      if (curr) {
+        observer.unobserve(curr);
       }
     };
   }, []);
@@ -40,6 +41,7 @@ const ScreenText = ({ screen, setCurrentImg, i }) => {
               src={screen.mobile_img}
               className="mobile-screen-img slide-in-right "
               key={screen.mobile_img}
+              alt="some"
             />
           </div>
         </div>

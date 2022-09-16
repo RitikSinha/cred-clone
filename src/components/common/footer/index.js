@@ -8,6 +8,7 @@ const Footer = () => {
         style={{ color: "white", textDecoration: "none", margin: 10 }}
         href="https://www.twitter.com/konfavian"
         target="_blank"
+        rel="noreferrer"
       >
         {" "}
         Ritik Sinha
